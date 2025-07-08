@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pyramids FC - Official Kit</title>
+    <link rel="stylesheet" href="kit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/_logo.png" type="image/png">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="images/_logo.png" alt="Pyramids FC Logo" data-i18n-alt="logo_alt">
+                    <h1 class="logo-text" data-i18n="club_name">Pyramids FC</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" data-i18n="home">Home</a></li>
+                        <li><a href="Technical-staff.html" data-i18n="Technical staff">Technical staff</a></li>
+                        <li><a href="team.html" data-i18n="team">Team</a></li>
+                        <li><a href="kit.html" class="active" data-i18n="kit">Kit</a></li>
+                        <li><a href="trophies.html" data-i18n="trophies">Trophies</a></li>
+                        <li><a href="about.html" data-i18n="about">About</a></li>
+                        <li><a href="contact.html" data-i18n="contact">Contact</a></li>
+                       
+                    </ul>
+                </nav>
+                <div class="language-switcher">
+                    <button class="language-btn">EN <i class="fas fa-chevron-down"></i></button>
+                    <div class="language-dropdown">
+                        <a href="#" data-lang="en" data-i18n="english">English</a>
+                        <a href="#" data-lang="ar" data-i18n="arabic">العربية</a>
+                    </div>
+                </div>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+
+    <!-- Main Content -->
+    <main class="kit-main">
+        <!-- Hero Banner with Carousel -->
+        <section class="page-hero">
+            <div class="hero-carousel">
+                <!-- Carousel Slides -->
+                <div class="carousel-slides">
+                    <div class="slide active" style="background-image: url('kit/kit.webp')">
+                        <div class="hero-overlay">
+                            <div class="container">
+                                <h2 data-i18n="official_kit">Official Kit</h2>
+                                <p data-i18n="kit_subtitle">Wear the colors of Pyramids FC</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url('kit/kit2.webp')">
+                        <div class="hero-overlay">
+                            <div class="container">
+                                <h2 data-i18n="official_kit">Official Kit</h2>
+                                <p data-i18n="kit_subtitle">Show your support with our jerseys</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Arrows -->
+                <button class="arrow-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="arrow-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+
+            </div>
+        </section>
+
+
+        <!-- Dots -->
+        <div class="slider-dots"></div>
+        </section>
+
+        <!-- Rest of your content... -->
+    </main>
+
+    <!-- Kit Selector -->
+    <section class="kit-selector-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="kit_collection">2023/24 Kit Collection</h2>
+
+            <div class="kit-selector" id="kitSelector">
+                <div class="kit-option active" data-kit="home" data-i18n="home_kit">Home Kit</div>
+                <div class="kit-option" data-kit="away" data-i18n="away_kit">Away Kit</div>
+                <div class="kit-option" data-kit="third" data-i18n="third_kit">Third Kit</div>
+            </div>
+
+            <!-- Main Kit Display -->
+            <div class="kit-display active" id="home">
+                <div class="kit-image">
+                    <img src="kit/kit3.webp" alt="Home Kit" data-i18n-alt="home_kit_alt">
+                </div>
+                <div class="kit-info">
+                    <h2 data-i18n="home_kit">Home Kit</h2>
+                    <p class="kit-description" data-i18n="home_kit_desc">The iconic blue and gold colors that
+                        represent our identity on home soil. Inspired by the ancient pyramids of Egypt, this kit
+                        features traditional patterns woven into the fabric.</p>
+                    <div class="kit-details">
+                        <div class="detail-item">
+                            <div class="detail-label" data-i18n="material">Material:</div>
+                            <div class="detail-value" data-i18n="home_kit_material">100% Recycled Polyester</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label" data-i18n="technology">Technology:</div>
+                            <div class="detail-value" data-i18n="kit_technology">AEROREADY - Keeps you cool and dry
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label" data-i18n="price">Price:</div>
+                            <div class="detail-value">$59.99</div>
+                        </div>
+                    </div>
+                    <div class="kit-sizes">
+                        <div class="size-option active" data-size="S">S</div>
+                        <div class="size-option" data-size="M">M</div>
+                        <div class="size-option" data-size="L">L</div>
+                        <div class="size-option" data-size="XL">XL</div>
+                        <div class="size-option" data-size="XXL">XXL</div>
+                    </div>
+                    <button class="btn btn-primary add-to-cart-btn" data-i18n="add_to_cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="kit-display" id="away">
+                <div class="kit-image">
+                    <img src="kit/kitt6.jpg" alt="Away Kit" data-i18n-alt="away_kit_alt">
+                </div>
+                <div class="kit-info">
+                    <h2 data-i18n="away_kit">Away Kit</h2>
+                    <p class="kit-description" data-i18n="away_kit_desc">The striking white and gold design for our
+                        travels across the country. Features minimalist design with subtle pyramid motifs throughout
+                        the fabric.</p>
+                    <div class="kit-details">
+                        <div class="detail-item">
+                            <div class="detail-label" data-i18n="material">Material:</div>
+                            <div class="detail-value" data-i18n="away_kit_material">100% Recycled Polyester</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label" data-i18n="technology">Technology:</div>
+                            <div class="detail-value" data-i18n="kit_technology">AEROREADY - Keeps you cool and dry
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label" data-i18n="price">Price:</div>
+                            <div class="detail-value">$59.99</div>
+                        </div>
+                    </div>
+                    <div class="kit-sizes">
+                        <div class="size-option active" data-size="S">S</div>
+                        <div class="size-option" data-size="M">M</div>
+                        <div class="size-option" data-size="L">L</div>
+                        <div class="size-option" data-size="XL">XL</div>
+                        <div class="size-option" data-size="XXL">XXL</div>
+                    </div>
+                    <button class="btn btn-primary add-to-cart-btn" data-i18n="add_to_cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="kit-display" id="third">
+                <div class="kit-image">
+                    <img src="kit/kitt5.jpg" alt="Third Kit" data-i18n-alt="third_kit_alt">
+                </div>
+                <div class="kit-info">
+                    <h2 data-i18n="third_kit">Third Kit</h2>
+                    <p class="kit-description" data-i18n="third_kit_desc">The bold black and gold alternative for
+                        special occasions. Inspired by the night sky over the pyramids, featuring celestial
+                        patterns.</p>
+                    <div class="kit-details">
+                        <div class="detail-item">
+                            <div class="detail-label" data-i18n="material">Material:</div>
+                            <div class="detail-value" data-i18n="third_kit_material">100% Recycled Polyester</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label" data-i18n="technology">Technology:</div>
+                            <div class="detail-value" data-i18n="kit_technology">AEROREADY - Keeps you cool and dry
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label" data-i18n="price">Price:</div>
+                            <div class="detail-value">$59.99</div>
+                        </div>
+                    </div>
+                    <div class="kit-sizes">
+                        <div class="size-option active" data-size="S">S</div>
+                        <div class="size-option" data-size="M">M</div>
+                        <div class="size-option" data-size="L">L</div>
+                        <div class="size-option" data-size="XL">XL</div>
+                        <div class="size-option" data-size="XXL">XXL</div>
+                    </div>
+                    <button class="btn btn-primary add-to-cart-btn" data-i18n="add_to_cart">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customization Section -->
+    <section class="customization-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="customize_kit">Customize Your Kit</h2>
+            <div class="customization-content">
+                <div class="customization-preview">
+                    <img src="kit/kit2.webp" alt="Custom Kit Preview" id="kitPreview" data-i18n-alt="custom_kit_alt">
+                </div>
+                <div class="customization-form">
+                    <h3 data-i18n="personalize_jersey">Personalize Your Jersey</h3>
+                    <form id="customizeForm">
+                        <div class="form-group">
+                            <label for="kitType" data-i18n="kit_type">Kit Type</label>
+                            <select id="kitType">
+                                <option value="home" data-i18n="home_kit">Home Kit</option>
+                                <option value="away" data-i18n="away_kit">Away Kit</option>
+                                <option value="third" data-i18n="third_kit">Third Kit</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="playerName" data-i18n="name">Name</label>
+                            <input type="text" id="playerName" placeholder="Enter your name" maxlength="15"
+                                data-i18n-placeholder="name_placeholder">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="kitSize" data-i18n="size">Size</label>
+                            <select id="kitSize">
+                                <option value="S" data-i18n="size_s">Small</option>
+                                <option value="M" data-i18n="size_m">Medium</option>
+                                <option value="L" data-i18n="size_l">Large</option>
+                                <option value="XL" data-i18n="size_xl">XL</option>
+                                <option value="XXL" data-i18n="size_xxl">XXL</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label data-i18n="total">Total: <span id="totalPrice">$69.99</span></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary add-to-cart-btn" data-i18n="add_to_cart">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsors Section -->
+    <section class="sponsors-section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="official_sponsors">Official Sponsors</h2>
+            <div class="sponsors-slider">
+                <div class="sponsors-track">
+                    <div class="sponsor-item">
+                        <img src="sponsers/1.webp" alt="Sponsor 1" data-i18n-alt="sponsor1_alt">
+                    </div>
+                    <div class="sponsor-item">
+                        <img src="sponsers/2.webp" alt="Sponsor 2" data-i18n-alt="sponsor2_alt">
+                    </div>
+                    <div class="sponsor-item">
+                        <img src="sponsers/3.webp" alt="Sponsor 3" data-i18n-alt="sponsor3_alt">
+                    </div>
+                    <div class="sponsor-item">
+                        <img src="sponsers/4.webp" alt="Sponsor 4" data-i18n-alt="sponsor4_alt">
+                    </div>
+                    <div class="sponsor-item">
+                        <img src="sponsers/5.webp" alt="Sponsor 5" data-i18n-alt="sponsor5_alt">
+                    </div>
+                    <div class="sponsor-item">
+                        <img src="sponsers/6.webp" alt="Sponsor 6" data-i18n-alt="sponsor6_alt">
+                    </div>
+                    <div class="sponsor-item">
+                        <img src="sponsers/7.webp" alt="Sponsor 6" data-i18n-alt="sponsor6_alt">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="logo">
+                        <img src="images/logo-white.png" alt="Pyramids FC Logo" data-i18n-alt="logo_alt">
+                        <h2 data-i18n="club_name">Pyramids FC</h2>
+                    </div>
+                    <p data-i18n="footer_desc">Pyramids FC is a professional Egyptian football club based in Cairo.
+                        Founded in 2018, we have quickly established ourselves as one of Africa's most ambitious clubs.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3 data-i18n="quick_links">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html" class="active" data-i18n="home">Home</a></li>
+                        <li><a href="Technical-staff.html" data-i18n="Technical staff">Technical staff</a></li>
+                        <li><a href="team.html" data-i18n="team">Team</a></li>
+                        <li><a href="kit.html" class="active" data-i18n="kit">Kit</a></li>
+                        <li><a href="trophies.html" data-i18n="trophies">Trophies</a></li>
+                        <li><a href="about.html" data-i18n="about">About Us</a></li>
+                        <li><a href="contact.html" data-i18n="contact">Contact Us</a></li>
+                        <li><a href="login.html" data-i18n="login">Login</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 data-i18n="contact_info">Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> <span data-i18n="club_address">Air Defense Stadium,
+                                Cairo, Egypt</span></li>
+                        <li><i class="fas fa-phone"></i> +202 1234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@pyramidsfc.com</li>
+                        <li><i class="fas fa-clock"></i> <span data-i18n="office_hours">Office Hours: 9AM - 5PM
+                                (GMT+2)</span></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 data-i18n="newsletter">Newsletter</h3>
+                    <p data-i18n="newsletter_desc">Subscribe to our newsletter for the latest club news and updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email Address" required
+                            data-i18n-placeholder="email_placeholder">
+                        <button type="submit" data-i18n="subscribe">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span data-i18n="year">2025</span> <span data-i18n="club_name">Pyramids FC</span>. <span
+                        data-i18n="all_rights">All Rights Reserved</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="kit.js"></script>
+    <script>
+        // Add to Cart functionality with redirect to login
+        document.addEventListener('DOMContentLoaded', function() {
+            // Handle all Add to Cart buttons
+            document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    // Get product details
+                    let productDetails = {};
+                    const kitDisplay = this.closest('.kit-display');
+                    
+                    if (kitDisplay) {
+                        // For main kit display buttons
+                        productDetails = {
+                            kitType: kitDisplay.id,
+                            size: kitDisplay.querySelector('.size-option.active').dataset.size,
+                            price: 59.99,
+                            name: kitDisplay.querySelector('h2').textContent
+                        };
+                    } else {
+                        // For customization form
+                        productDetails = {
+                            kitType: document.getElementById('kitType').value,
+                            size: document.getElementById('kitSize').value,
+                            price: 69.99,
+                            name: document.getElementById('playerName').value || 'Custom Jersey',
+                            isCustom: true
+                        };
+                    }
+                    
+                    // Save to localStorage (optional)
+                    localStorage.setItem('pendingCartItem', JSON.stringify(productDetails));
+                    
+                    // Redirect to login page
+                    window.location.href = 'login.html';
+                });
+            });
+            
+            // Rest of your existing JavaScript for the page...
+        });
+    </script>
+</body>
+
+</html>
